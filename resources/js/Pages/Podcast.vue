@@ -64,7 +64,7 @@ export default {
 },
     data() {
         return {
-          imgSrc: '/images/podcastimg.webp',
+          imgSrc: 'assets/images/podcastimg.webp',
             // Bovenste is het eerste
             spotifyLinks:
                 [

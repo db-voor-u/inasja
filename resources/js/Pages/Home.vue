@@ -68,7 +68,7 @@ export default {
 },
     data() {
         return {
-            imageSrc: '/images/logo.jpeg',
+            imageSrc: 'assets/images/logo.jpeg',
         }
     },
 

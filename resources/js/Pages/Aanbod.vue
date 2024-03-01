@@ -79,7 +79,7 @@ export default {
 },
     data() {
         return {
-            imageSrc:'/images/aanbod4.webp'
+            imageSrc:'assets/images/aanbod4.webp'
 
         }
     }

@@ -52,7 +52,7 @@ export default {
 },
     data() {
         return {
-            imgSrc: '/images/wiebenikfoto.webp'
+            imgSrc: 'assets/images/wiebenikfoto.webp'
         }
     }
 }

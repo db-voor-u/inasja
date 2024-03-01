@@ -2,8 +2,8 @@
     <header
         class="w-full fixed  top-0   bg-primary-color h-20  flex flex-row justify-between border-b-2  border-accent-color">
         <Link href="/" class="flex flex-col">
-        <h1 class="ml-4 mt-4 font-bold text-xl">Inasja.com</h1>
-        <p class="text-sm ml-4 font-bold">Spreker | Empowerment coach</p>
+        <h1 class="ml-6 mt-4 font-bold text-xl flex flex-row">Inasja<p class=" text-accent-color">.</p>com</h1>
+        <p class="text-sm ml-[29px] font-bold flex flex-row">Spreker<p class=" text-accent-color">|</p>Empowerment coach</p>
         </Link>
         <nav>
 
@@ -77,15 +77,13 @@
 
 <script>
 import { Link } from '@inertiajs/vue3';
-// import FaceBook from '../Shared/FaceBook.vue';
-// import Insta from '../Shared/Insta.vue';
 
 export default {
     components: { Link},
     data() {
         return {
             menuOpen: false,
-            imgSrc: '/images/navimg.webp',
+
         };
     },
 
@@ -108,7 +106,7 @@ export default {
 
 <style>
     .achtergrond {
-        background-image: url('/images/navimg.webp');
+        background-image: url('assets/images/navimg.webp');
         background-size: cover;
         background-repeat: no-repeat;
     }

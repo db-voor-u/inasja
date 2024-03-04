@@ -1,0 +1,42 @@
+{
+  "public/assets/images/aanbod4.webp": {
+    "file": "assets/aanbod4-CqP3nXsB.webp",
+    "src": "public/assets/images/aanbod4.webp"
+  },
+  "public/assets/images/contactimg.webp": {
+    "file": "assets/contactimg-CRfhlnVU.webp",
+    "src": "public/assets/images/contactimg.webp"
+  },
+  "public/assets/images/logo.jpeg": {
+    "file": "assets/logo-C24o3clD.jpeg",
+    "src": "public/assets/images/logo.jpeg"
+  },
+  "public/assets/images/podcastimg.webp": {
+    "file": "assets/podcastimg-DFZ0jliL.webp",
+    "src": "public/assets/images/podcastimg.webp"
+  },
+  "public/assets/images/wiebenikfoto.webp": {
+    "file": "assets/wiebenikfoto-bTMyUcjR.webp",
+    "src": "public/assets/images/wiebenikfoto.webp"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-DRkI6_FQ.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Cdnnp4J_.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-DzovvbhO.css"
+    ],
+    "assets": [
+      "assets/aanbod4-CqP3nXsB.webp",
+      "assets/contactimg-CRfhlnVU.webp",
+      "assets/logo-C24o3clD.jpeg",
+      "assets/podcastimg-DFZ0jliL.webp",
+      "assets/wiebenikfoto-bTMyUcjR.webp"
+    ]
+  }
+}

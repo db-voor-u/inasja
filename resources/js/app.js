@@ -27,6 +27,6 @@ createInertiaApp({
         showSpinner: true,
 
         // The size of the progress bar...
-        size: 4,
+        size: 6,
     },
 });

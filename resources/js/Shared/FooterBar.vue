@@ -4,7 +4,7 @@
 <FaceBook class="mb-2"/>
 <div class="flex flex-col">
             <p class="text-center text-xs">Inasja.com@2024</p>
-            <p class="text-center text-xs">👈volgen👉</p>
+            <p class="text-center text-xs">👈----volgen----👉</p>
 
           </div>
 <Insta class="mb-2" />

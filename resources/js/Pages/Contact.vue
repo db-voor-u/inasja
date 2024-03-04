@@ -1,13 +1,14 @@
 <template>
+     <Layout>
       <Head >
         <title>Inasja.com -Contact</title>
      <meta name="description" content="Neem contact op met 'Live Your Life Fearlessly' - Wij horen graag van je!" >
 
       </Head>
-    <Layout>
+
     <div class="max-w-[580px] mx-auto p-2 mt-20">
 
-    <img :src="imgSrc" alt="contactimg" class=" h-64 w-96 rounded-lg mx-auto">
+    <img src="/public/assets/images/contactimg.webp" alt="contactimg" class=" object-obtain  h-60 w-96 mx-auto border-2 border-accent-color rounded-xl ">
         <h1 class="text-2xl font-bold mb-4 text-center">Contact</h1>
     </div>
     <div class="max-w-[580px] mx-auto p-2 mb-4">
@@ -74,7 +75,7 @@ export default {
         return {
             isLoading: false,
             messageSent: false,
-            imgSrc: '/images/contactimg.webp',
+
 
         };
     },

@@ -1,14 +1,15 @@
 <template>
+<Layout>
      <Head>
         <title>Inasja.com -Poscast</title>
    <meta name="description" content="Ontdek 'Leef Je Leven Zonder Angst' met Inasja Marroussia Wijdekop op Spotify. Luister naar inspirerende gesprekken over moed, persoonlijke ontwikkeling en het overwinnen van angsten. Laat je inspireren om met vertrouwen je eigen weg te gaan.">
 
 
     </Head>
-    <Layout>
+
      <div class="max-w-[580px] mx-auto p-4 mt-20 ">
         <div class=" object-cover">
-                <img :src="imgSrc" alt="podcast" class="h-64  w-96 mx-auto rounded-lg  ">
+                <img src="/public/assets/images/podcastimg.webp" alt="podcast" class="object-obtain  h-60 w-96 mx-auto border-2 border-accent-color rounded-xl ">
             </div>
             <h1 class="text-center font-bold text-2xl">Podcast</h1>
             <div class="mt-10 text-left">
@@ -36,7 +37,9 @@
         </div>
      <div class="spotify-container mt-10 p-4 max-w-[580px] mx-auto">
         <div class="flex flex-col gap-4">
-          <iframe v-for="(link, index) in spotifyLinks" :key="index" class="spotify-iframe" :src="link"  frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe>
+          <iframe v-for="(link, index) in spotifyLinks" :key="index" class="spotify-iframe" :src="link"  frameborder="0" allowtransparency="true" allow="encrypted-media" >
+
+        </iframe>
         </div>
       </div>
      <br><br>
@@ -64,24 +67,24 @@ export default {
 },
     data() {
         return {
-          imgSrc: 'assets/images/podcastimg.webp',
+
             // Bovenste is het eerste
             spotifyLinks:
                 [
-                    "https://open.spotify.com/embed/episode/4zwCLWyjU9mnn4sdIDSNCj?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/2ds5bmQvAzSSCFoLq6n3lM?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/7sklMgOTYeiLc8WFJtntm4?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/0mKVt8wiaRpgI1PS6kAtET?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/1SY94IUlAfETvFVv7RRanK?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/43nhNzRJFy7wjNOwEA2G2k?utm_source=generator" ,
-                    "https://open.spotify.com/embed/episode/3S9WIYRCwK0K4nqe0lvbIZ?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/7qxBIHUE30GHwtkBGhv0Xy?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/5G6Nxb1h1dCBe5oT56dJhL?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/2fCHyxT0Infeqqxcx4cbb4?utm_source=generator" ,
-                    "https://open.spotify.com/embed/episode/5yaXhfvjlenwgW2S74qPOd?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/5yMj60O8BkSkyJCihGq4Lp?utm_source=generator" ,
-                    "https://open.spotify.com/embed/episode/77mtYB6gN3A6Wf381QXfaY?utm_source=generator",
-                    "https://open.spotify.com/embed/episode/7acRYfFIDYgNUTs9PNN5fw?utm_source=generator",
+                    "https://open.spotify.com/embed/episode/4zwCLWyjU9mnn4sdIDSNCj",
+                    "https://open.spotify.com/embed/episode/2ds5bmQvAzSSCFoLq6n3lM",
+                    "https://open.spotify.com/embed/episode/7sklMgOTYeiLc8WFJtntm4",
+                    "https://open.spotify.com/embed/episode/0mKVt8wiaRpgI1PS6kAtET",
+                    "https://open.spotify.com/embed/episode/1SY94IUlAfETvFVv7RRanK",
+                    "https://open.spotify.com/embed/episode/43nhNzRJFy7wjNOwEA2G2k" ,
+                    "https://open.spotify.com/embed/episode/3S9WIYRCwK0K4nqe0lvbIZ",
+                    "https://open.spotify.com/embed/episode/7qxBIHUE30GHwtkBGhv0Xy",
+                    "https://open.spotify.com/embed/episode/5G6Nxb1h1dCBe5oT56dJhL",
+                    "https://open.spotify.com/embed/episode/2fCHyxT0Infeqqxcx4cbb4" ,
+                    "https://open.spotify.com/embed/episode/5yaXhfvjlenwgW2S74qPOd",
+                    "https://open.spotify.com/embed/episode/5yMj60O8BkSkyJCihGq4Lp" ,
+                    "https://open.spotify.com/embed/episode/77mtYB6gN3A6Wf381QXfaY",
+                    "https://open.spotify.com/embed/episode/7acRYfFIDYgNUTs9PNN5fw",
 
                 ]
         }

@@ -16,32 +16,32 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Home');
+    return Inertia('Home');
 })->name('home');
 
 Route::get('/wiebenik', function () {
-    return Inertia::render('WieBenIk');
+    return Inertia('WieBenIk');
 })->name('wiebenik');
 
 Route::get('/coaching', function () {
-    return Inertia::render('Coaching');
+    return Inertia('Coaching');
 })->name('coaching');
 
 Route::get('/aanbod', function () {
-    return Inertia::render('Aanbod');
+    return Inertia('Aanbod');
 })->name('aanbod');
 
 Route::get('/podcast', function () {
-    sleep(3);
-    return Inertia::render('Podcast');
+    sleep(4);
+    return Inertia('Podcast');
 })->name('podcast');
 
 Route::get('/werkzaamheden', function () {
-    return Inertia::render('WerkZaamHeden');
+    return Inertia('WerkZaamHeden');
 })->name('werkzaamheden');
 
 Route::get('/contact', function () {
-    return Inertia::render('Contact');
+    return Inertia('Contact');
 })->name('contact');
 
 Route::post('/send-email', [EmailController::class, 'send']);

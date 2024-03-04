@@ -1,14 +1,16 @@
 
 <template>
-     <Head>
+
+ <Layout>
+ <Head>
         <title>Inasja.com -Inasja Marroussia Wijdekop</title>
        <meta name="description" content="Mijn naam is Inasja Marroussia Wijdekop. De kern van mijn naam draagt een boodschap uit die nauw aansluit bij mijn levensvisie: 'Navigeer je leven met moed, maak authentieke keuzes en ontdek je unieke pad.'">
       </Head>
- <Layout>
-
 
    <div class="max-w-[580px] mx-auto p-4 mt-20">
-      <img :src="imageSrc" alt="begin" class="  h-64  w-96 mx-auto rounded-lg">
+
+      <img src="/public/assets/images/logo.jpeg" alt="begin" class="object-obtain  h-60 w-96 mx-auto border-2 border-accent-color rounded-xl ">
+
 
         <br>
         <h1 class="text-center font-bold">Over Inasja Marroussia Wijdekop</h1>
@@ -64,11 +66,12 @@ export default {
     components: {
     Layout,
     Link,
+    Head
 
 },
     data() {
         return {
-            imageSrc: 'assets/images/logo.jpeg',
+
         }
     },
 

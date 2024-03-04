@@ -1,14 +1,16 @@
 <template>
+
+<Layout>
      <Head>
         <title>Inasja.com -Inasja</title>
         <meta name="description" content="Ontdek 'Wie ben ik' en ga op een reis van zelfontdekking en persoonlijke groei. Verken de diepten van je persoonlijkheid en vind je ware zelf.">
         </Head>
 
-<Layout>
+
 
 
     <div class="max-w-[580px] mx-auto p-4 mt-20">
-        <img :src="imgSrc" alt="wiebenik" class=" h-64 object-cover  w-full rounded-lg">
+        <img src="/public/assets/images/wiebenikfoto.webp" alt="wiebenik" class=" object-obtain  h-60 w-96 mx-auto border-2 border-accent-color rounded-xl ">
 <h1 class="font-bold text-2xl text-center">Wie Ben Ik?</h1>
         <br><br>
         <h1 class="text-center font-bold text-2xl">Welkom</h1>
@@ -47,12 +49,12 @@ import { Head } from '@inertiajs/vue3';
 
 export default {
     components: {
-
-    Layout
+        Head,
+        Layout
 },
     data() {
         return {
-            imgSrc: 'assets/images/wiebenikfoto.webp'
+
         }
     }
 }

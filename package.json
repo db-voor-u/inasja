@@ -3,8 +3,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
-
+        "build": "vite build"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.17",
@@ -15,15 +14,10 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
+        "@inertiajs/inertia-vue3": "^0.6.0",
         "@inertiajs/vue3": "^1.0.14",
         "@vitejs/plugin-vue": "^5.0.4",
         "nprogress": "^0.2.0",
         "vue": "^3.4.19"
     }
-
-
-
-
-
-
 }

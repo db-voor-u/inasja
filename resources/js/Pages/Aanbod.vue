@@ -1,13 +1,14 @@
 <template>
+<Layout>
       <Head>
         <title>Inasja.com -Aanbod</title>
-<meta name="description" content="Ontdek een wereld van zelfontdekking, healing en persoonlijke groei met onze reeks aan diensten, afgestemd op jouw unieke behoeften. Laat je inspireren door authentieke verhalen en bouw een gemeenschap van gelijkgestemden die je steunen op jouw pad naar zelfrealisatie." >
+         <meta name="description" content="Ontdek een wereld van zelfontdekking, healing en persoonlijke groei met onze reeks aan diensten, afgestemd op jouw unieke behoeften. Laat je inspireren door authentieke verhalen en bouw een gemeenschap van gelijkgestemden die je steunen op jouw pad naar zelfrealisatie." >
       </Head>
 
-    <Layout>
+
     <div class="max-w-[580px] mx-auto p-4 mt-20">
-        <div class=" object-cover">
-         <img :src="imageSrc" alt="aanbod" class="h-64  w-96 mx-auto rounded-lg "></div>
+
+         <img src="/public/assets/images/aanbod4.webp" alt="aanbod" class="object-obtain  h-60 w-96 mx-auto border-2 border-accent-color rounded-xl ">
          <h1 class="text-center font-bold text-2xl">Aanbod</h1>
          <br><br>
     <h1 class="text-center font-bold text-2xl ">Jouw Reis naar Empowerment en Zelfliefde</h1><br>
@@ -73,13 +74,16 @@ import Layout from '../Shared/Layout.vue';
 import { Head } from '@inertiajs/vue3';
 
 
+
 export default {
     components: {
-    Layout
+    Layout,
+    Head
 },
     data() {
         return {
-            imageSrc:'assets/images/aanbod4.webp'
+
+
 
         }
     }

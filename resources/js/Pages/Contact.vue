@@ -46,7 +46,7 @@
         <!-- <div v-if="messageSent">Uw bericht is goed verzonden. U wordt automatisch naar de beginpagina geleid.</div> -->
     </div>
     <div class="max-w-[580px] mx-auto p-2">
-        <p class="text-left">Bedankt voor uw bericht.<br><br> Live Your Life Fearlessly streeft ernaar om binnen twee weken contact met u op te nemen. Wij waarderen uw geduld en interesse.<br><br> Met vriendelijke groet,<br><br></p>
+        <p class="text-left">Bedankt voor uw bericht.<br><br> Inasja.com streeft ernaar om binnen twee weken contact met u op te nemen. Wij waarderen uw geduld en interesse.<br><br> Met vriendelijke groet,<br><br></p>
           <a href="/" class="team-inasja">Inasja Marroussia Wijdekop</a>
 
 

@@ -30,37 +30,38 @@
                          <!-- <img :src="imgSrc" alt="" class=" h-32 w-full "> -->
 
 
-                    <h1 class="text-left ml-14 text-2xl font-bold mt-10">Ga naar</h1>
+                    <h1 class="text-left ml-14 text-2xl font-bold mt-8">Ga naar</h1>
                     <hr class="w-28 ml-14 border-b-2 border-accent-color">
 
 
 
-                    <Link href="/" @click="closeMenu" class="ml-14 mt-20 text-lg flex flex-row "
+                    <Link href="/" @click="closeMenu" class="ml-14 mt-10 text-lg flex flex-row "
                       :class="{ 'font-bold  border-b-2 border-accent-color  w-14 ': $page.component === 'Home' }"
                      >Begin</Link>
                     <br>
-                    <br>
+
                     <Link href="/wiebenik" @click="closeMenu" class="ml-14 text-lg flex flex-row "
                         :class="{ 'font-bold  border-b-2 border-accent-color  w-16': $page.component === 'WieBenIk' }">Inasja</Link>
                     <br>
-                    <br>
+
                     <Link href="/coaching" @click="closeMenu" class="ml-14 text-lg flex flex-row "
                        :class="{ 'font-bold  border-b-2 border-accent-color  w-24 ': $page.component === 'Coaching' }">Coaching</Link>
                     <br>
-                    <br>
+
                     <Link href="/aanbod" @click="closeMenu" class="ml-14 text-lg flex flex-row "
                        :class="{ 'font-bold  border-b-2 border-accent-color  w-20': $page.component === 'Aanbod' }">Aanbod</Link>
                     <br>
-                    <br>
+
                     <Link href="/podcast" @click="closeMenu" class="ml-14 text-lg flex flex-row "
                       :class="{ 'font-bold  border-b-2 border-accent-color  w-20': $page.component === 'Podcast' }">Podcast</Link>
                     <br>
-                    <br>
-                  <Link href="/werkzaamheden" @click="closeMenu" class="ml-14 text-lg flex flex-row "
+
+                    <Link href="/werkzaamheden" @click="closeMenu" class="ml-14 text-lg flex flex-row "
                            :class="{ 'font-bold  border-b-2 border-accent-color  w-40': $page.component === 'WerkZaamHeden' }">Werkzaamheden</Link>
                             <br>
-                            <br>
-                            <Link href="/contact" @click="closeMenu" class="ml-14 text-lg flex flex-row "
+
+
+                            <Link href="/contact" @click="closeMenu" class="ml-14  mb-20 text-lg flex flex-row "
                                 :class="{ 'font-bold  border-b-2 border-accent-color  w-20': $page.component === 'Contact' }">Contact</Link>
                                    <br>
                                 <br>

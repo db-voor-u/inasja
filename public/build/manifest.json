@@ -20,12 +20,12 @@
     "src": "public/assets/images/wiebenikfoto.webp"
   },
   "resources/css/app.css": {
-    "file": "assets/app-CVL7XyKx.css",
+    "file": "assets/app-Ct96zsiB.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-Bz4Hacx3.js",
+    "file": "assets/app-DCSW6AJR.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [

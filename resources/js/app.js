@@ -28,5 +28,7 @@ createInertiaApp({
 
         // The size of the progress bar...
         size: 6,
+
+
     },
 });

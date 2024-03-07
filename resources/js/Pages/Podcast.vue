@@ -3,11 +3,12 @@
      <Head>
         <title>Inasja.com -Poscast</title>
    <meta name="description" content="Ontdek 'Leef Je Leven Zonder Angst' met Inasja Marroussia Wijdekop op Spotify. Luister naar inspirerende gesprekken over moed, persoonlijke ontwikkeling en het overwinnen van angsten. Laat je inspireren om met vertrouwen je eigen weg te gaan.">
-
-
     </Head>
 
+
+
      <div class="max-w-[580px] mx-auto p-4 mt-20 ">
+
         <div class=" object-cover">
                 <img src="/public/assets/images/podcastimg.webp" alt="podcast" class="object-obtain  h-60 w-96 mx-auto border-2 border-accent-color rounded-xl ">
             </div>
@@ -100,4 +101,5 @@ export default {
   height:100px; /* Pas aan op basis van je behoeften */
   border-radius: 0.5rem; /* Spotify-stijl */
 }
+
 </style>

@@ -20,16 +20,16 @@
     "src": "public/assets/images/wiebenikfoto.webp"
   },
   "resources/css/app.css": {
-    "file": "assets/app-BhLAgpb-.css",
+    "file": "assets/app-CVL7XyKx.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-ktA2Gsjl.js",
+    "file": "assets/app-Bz4Hacx3.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-DzovvbhO.css"
+      "assets/app-ClrQhYJN.css"
     ],
     "assets": [
       "assets/aanbod4-CqP3nXsB.webp",

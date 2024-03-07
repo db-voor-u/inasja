@@ -3,7 +3,7 @@
         class="w-full fixed  top-0   bg-primary-color h-20  flex flex-row justify-between border-b-2  border-accent-color">
         <Link href="/" class="flex flex-col">
         <h1 class="ml-6 mt-4 font-bold text-xl flex flex-row">Inasja<p class=" text-accent-color">.</p>com</h1>
-        <p class="text-sm ml-[29px] font-bold flex flex-row">Spreker<p class=" text-accent-color">|</p>Empowerment coach</p>
+        <p class="text-sm ml-[27px] font-bold flex flex-row">Spreker<p class=" text-accent-color">|</p>Empowerment coach</p>
         </Link>
         <nav>
 
@@ -26,7 +26,7 @@
                 </div>
 
                 <div
-                    class="achtergrond relative  w-96 bg-white border-2  border-accent-color rounded-lg shadow-lg justify-center items-center text-center ">
+                    class="achtergrond relative  w-96 bg-gradient-to-r from-green-100 via-teal-200 to-pink-100 border-2  border-accent-color rounded-lg shadow-lg justify-center items-center text-center ">
                          <!-- <img :src="imgSrc" alt="" class=" h-32 w-full "> -->
 
 
@@ -105,10 +105,6 @@ export default {
 
 
 <style>
-    .achtergrond {
-        background-image: url('assets/images/navimg.webp');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+
 
 </style>
